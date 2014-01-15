@@ -1,0 +1,22 @@
+﻿<Page x:Class="WpfMultPages.MainMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="MainMenu">
+
+    <Grid Background="Orange"  Opacity="0.5">
+        <StackPanel Margin="50">
+            <Label Name="btn_ToPageOne" Margin ="0, 20, 0, 0" MouseEnter="btn_ToPageOne_MouseEnter" MouseLeave="btn_ToPageOne_MouseLeave" Foreground="White" Width="80" HorizontalAlignment="Left" HorizontalContentAlignment="Right" MaxWidth="100" MinWidth="80">
+                To Page One
+            </Label>
+            <!--Button Name="btn_ToPageOne" Margin ="0, 20, 0, 0">To Page One</Button-->
+            <Label Name="btn_ToPageTwo" Margin ="0, 20, 0, 0" Foreground="White" MouseEnter="btn_ToPageOne_MouseEnter" MouseLeave="btn_ToPageOne_MouseLeave" Width="80" HorizontalAlignment="Left" HorizontalContentAlignment="Right" MaxWidth="100" MinWidth="80">
+                To Page Two
+            </Label>
+            <!--Button Name="btn_ToPageTwo" Margin ="0, 20, 0, 0">To Page Two</Button-->
+        </StackPanel>
+    </Grid>
+</Page>
